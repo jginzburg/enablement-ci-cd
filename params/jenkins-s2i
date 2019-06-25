@@ -1,0 +1,6 @@
+SOURCE_REPOSITORY_URL=https://gitlab.apps.labsla1.prod.nextcle.com/lab8/enablement-ci-cd.git
+NAME=jenkins
+SOURCE_REPOSITORY_CONTEXT_DIR=jenkins-s2i
+IMAGE_STREAM_NAMESPACE=jero-ci-cd
+SOURCE_REPOSITORY_USERNAME=lab8
+SOURCE_REPOSITORY_PASSWORD=white101
