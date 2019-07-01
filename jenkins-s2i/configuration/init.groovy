@@ -9,8 +9,8 @@ import hudson.plugins.sshslaves.*;
 
 domain = Domain.global()
 store = Jenkins.instance.getExtensionList('com.cloudbees.plugins.credentials.SystemCredentialsProvider')[0].getStore()
-gitUsername = System.getenv("GIT_USERNAME") ?: "lab8"
-gitPassword = System.getenv("GIT_PASSWORD") ?: "white101"
+gitUsername = System.getenv("GIT_USERNAME") ?: "jginzburg"
+gitPassword = System.getenv("GIT_PASSWORD") ?: "pertis3"
 
 usernameAndPassword = new UsernamePasswordCredentialsImpl(
   CredentialsScope.GLOBAL,
